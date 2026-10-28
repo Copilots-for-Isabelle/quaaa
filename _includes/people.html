@@ -1,0 +1,12 @@
+<section>
+<h2 id="{{ include.id }}">{{ include.title }}</h2>
+{% if include.people.size > 0 -%}
+<ul>
+{%- for p in include.people %}
+  <li>{% include person.html p=p %}</li>
+{%- endfor %}
+</ul>
+{%- else -%}
+<p class="tbd">To be announced.</p>
+{%- endif %}
+</section>

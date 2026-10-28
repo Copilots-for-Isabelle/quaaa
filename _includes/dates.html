@@ -1,0 +1,8 @@
+<section>
+<h2 id="dates">Important Dates</h2>
+<ul>
+{%- for d in site.data.dates %}
+  <li>{{ d.what }}: {% if d.when %}{{ d.when }}{% else %}<span class="tbd">TBA</span>{% endif %}</li>
+{%- endfor %}
+</ul>
+</section>

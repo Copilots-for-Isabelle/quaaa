@@ -1,0 +1,10 @@
+{% if site.data.papers.size > 0 %}
+<section>
+<h2 id="papers">Accepted Papers</h2>
+<ul class="papers">
+{%- for p in site.data.papers %}
+  <li>{% if p.pdf %}<a href="{% include link.html href=p.pdf %}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}<br><span class="who">{{ p.authors }}</span></li>
+{%- endfor %}
+</ul>
+</section>
+{% endif %}

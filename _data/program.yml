@@ -1,0 +1,8 @@
+# Workshop program; the section is hidden while this list is empty. Example:
+# - time: "09:00"
+#   title: Opening
+# - time: "09:15"
+#   title: "Some talk title"
+#   speaker: Jane Doe          # optional
+#   paper: papers/doe.pdf      # optional, path or URL
+[]

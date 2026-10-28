@@ -1,0 +1,27 @@
+# Site-wide settings. Restart `jekyll serve` after editing this file.
+
+title: QUAAA 2027
+tagline: Quality and alignment of AI-generated mechanizations
+description: >-
+  QUAAA 2027: an informal ETAPS workshop on the quality and alignment of
+  mechanized results produced by generative AI agents.
+  April 10, 2027, Copenhagen.
+
+workshop_date: April 10, 2027
+location: Copenhagen, Denmark
+etaps:
+  name: ETAPS 2027
+  url: https://etaps.org/2027/
+
+# Link to the submission site (e.g. EasyChair); leave empty while TBA.
+submission_url:
+
+url: https://copilots-for-isabelle.github.io
+baseurl: /quaaa
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

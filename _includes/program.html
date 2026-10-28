@@ -1,0 +1,13 @@
+{% if site.data.program.size > 0 %}
+<section>
+<h2 id="program">Program</h2>
+<table class="program">
+{%- for s in site.data.program %}
+  <tr>
+    <td class="time">{{ s.time }}</td>
+    <td>{% if s.paper %}<a href="{% include link.html href=s.paper %}">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}{% if s.speaker %}<br><span class="who">{{ s.speaker }}</span>{% endif %}</td>
+  </tr>
+{%- endfor %}
+</table>
+</section>
+{% endif %}

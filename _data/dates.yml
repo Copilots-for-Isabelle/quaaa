@@ -1,0 +1,7 @@
+# Leave `when` empty to show "TBA".
+- what: Submission deadline
+  when:
+- what: Notification
+  when:
+- what: Workshop
+  when: April 10, 2027
