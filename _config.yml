@@ -1,7 +1,7 @@
 # Site-wide settings. Restart `jekyll serve` after editing this file.
 
 title: QUAAA 2027
-tagline: Quality and alignment of AI-generated autoformalizations
+tagline: Quality and Alignment in Agentic Autoformalization
 description: >-
   QUAAA 2027: an informal ETAPS workshop on the quality and alignment of
   mechanized results produced by generative AI agents.
