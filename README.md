@@ -22,9 +22,14 @@ each data file contains a commented example entry.
 
 ## Local preview
 
+Requires Ruby (tested with 3.3 and 4.0) and Bundler. The `Gemfile` pins the
+Jekyll version GitHub Pages uses.
+
 ```bash
+bundle config set --local path vendor/bundle
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
-Then open <http://localhost:4000/quaaa/>.
+Then open <http://localhost:4000/quaaa/>. Pages reload on save, except after
+changes to `_config.yml`, which need a server restart.
