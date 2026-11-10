@@ -1,8 +1,7 @@
 # QUAAA 2027
 
 Website of the QUAAA workshop (April 10, 2027, Copenhagen, co-located with ETAPS 2027),
-built with Jekyll and published via GitHub Pages
-(*Settings → Pages → Deploy from a branch*, `main`, `/ (root)`).
+built with Jekyll and published via GitHub Pages.
 
 ## Editing
 
